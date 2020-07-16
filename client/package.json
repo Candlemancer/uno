@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "install-serve": "npm install && npm run serve",
     "serve": "vue-cli-service serve --port 3000",
-    "build": "vue-cli-service build",
+    "build": "npx vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build-watch": "vue-cli-service build-watch",
     "test:e2e": "vue-cli-service test:unit -- tests/e2e/.*spec.[jt]s",
